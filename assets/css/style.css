@@ -118,7 +118,7 @@ nav ul li a:active {
   width: 100%;
   height: 500px;
   display: block;
-  background: url(heroimage.png);
+  background: url(../img/heroimage.png);
   background-size: cover;
 }
 
@@ -216,8 +216,7 @@ select.appointmentInput {
 
 .ourDepartments {
   display: flex;
-  overflow-x: scroll; 
-
+  overflow-x: scroll;
 }
 .ourDepartments::-webkit-scrollbar {
   display: none;
@@ -225,10 +224,9 @@ select.appointmentInput {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .ourDepartments {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
-
 
 .ourDepartments div {
   margin: 3%;
@@ -258,48 +256,43 @@ select.appointmentInput {
   background-color: #cfe9e4;
   padding: 0;
   margin: 0;
-
 }
 
-.whyGgImage{
-  flex:1.4; 
+.whyGgImage {
+  flex: 1.4;
 }
 
-.whyGgImage img{
-  width:100%;
-
-
+.whyGgImage img {
+  width: 100%;
 }
 
-.whyGgDetails{
-  margin:auto;
-  padding-inline:5%;
-  flex:.6;
+.whyGgDetails {
+  margin: auto;
+  padding-inline: 5%;
+  flex: 0.6;
   width: 40%;
   text-align: left;
 }
 
-.whyGgDetails h1{
+.whyGgDetails h1 {
   font-size: large;
 }
 
-.whyGgDetails ul{
-  padding:0
-
+.whyGgDetails ul {
+  padding: 0;
 }
-.whyGgDetails li{
- 
- list-style: none;
- font-size: 15px;
- margin-block: 5%;
+.whyGgDetails li {
+  list-style: none;
+  font-size: 15px;
+  margin-block: 5%;
 }
 
 .whyGgDetails ul li::before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 15px;
   width: 15px;
-  background-image: url(bullet.png);
+  background-image: url(../img/bullet.png);
   background-size: cover;
 }
 
@@ -309,19 +302,17 @@ select.appointmentInput {
 }
 .specialist h2 {
   font-size: 35px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 .specialist h5 {
-margin:1%;
-padding: 0;
-color: #6b6464;
+  margin: 1%;
+  padding: 0;
+  color: #6b6464;
 }
-
 
 .doctorWrapper {
   display: flex;
 }
-
 
 .doctorWrapper div {
   margin: 3%;
@@ -331,7 +322,7 @@ color: #6b6464;
 
 .doctorWrapper div img {
   margin-bottom: 5%;
-  width:93%
+  width: 93%;
 }
 
 .doctorWrapper span {
@@ -345,7 +336,7 @@ color: #6b6464;
   color: #6b6464;
 }
 
-.specialist button{
+.specialist button {
   margin: 0% 0% 3% 2%;
   width: 10%;
   padding: 1% 0%;
@@ -357,37 +348,37 @@ color: #6b6464;
   border-radius: 6px;
 }
 
-.facilities{
+.facilities {
   display: block;
   text-align: center;
   margin-top: 10%;
 }
 
-.facilities h3{
-font-size: 30px;
+.facilities h3 {
+  font-size: 30px;
 }
 
-.facilities div{
-  display: flex; 
-   justify-content: space-around;
+.facilities div {
+  display: flex;
+  justify-content: space-around;
 }
 
-.facilities img{
-  width:30%;
+.facilities img {
+  width: 30%;
 }
 .interestedWrapper {
   margin-top: 10%;
   display: block;
-  padding-block:5%;
+  padding-block: 5%;
+  padding-inline: 6%;
+  margin-inline: -6%;
   text-align: center;
-  background: linear-gradient(0deg,#EAF2FF  68%,white  68%);
+  background: linear-gradient(0deg, #eaf2ff 68%, white 68%);
 }
-
 
 .hotSection {
   display: flex;
 }
-
 
 .hotSection div {
   margin: 1%;
@@ -398,7 +389,7 @@ font-size: 30px;
 
 .hotSection div img {
   margin-bottom: 5%;
-  width:100%;
+  width: 100%;
 }
 
 .hotSection span {
@@ -410,33 +401,33 @@ font-size: 30px;
   margin-block: 3%;
   font-size: small;
   color: #6b6464;
-  line-height:1.8;
+  line-height: 1.8;
 }
 .hotSection p a {
   margin-block: 3%;
   font-size: small;
-  color:  #17c1a3;
+  color: #17c1a3;
 }
 
-.suscribeWrapper{
+.subscribeWrapper {
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
   margin-inline: 10%;
   padding-block: 5%;
-  background-color:white;
-  background-image: url(subscribebackdrop.png);
+  background-color: white;
+  background-image: url("../img/subscribebackdrop.png");
   background-position: left;
 }
-.suscribeWrapper form{
+.subscribeWrapper form {
   display: flex;
 }
-.suscribeWrapper input{
+.subscribeWrapper input {
   border: none;
 }
 
-.suscribeWrapper button{
-  padding:4%;
-  margin:15px;
+.subscribeWrapper button {
+  padding: 4%;
+  margin: 15px;
   font-size: smaller;
   font-weight: 500;
   color: white;
@@ -444,19 +435,82 @@ font-size: 30px;
   border: 0;
   border-radius: 6px;
 }
-.bottomWrapper{
-  display:block;
+.bottomWrapper {
+  margin-top: 10%;
+  display: block;
 }
-.upperBottomWrapper{
+.upperBottomWrapper {
   display: flex;
-  justify-content: space-around;
   font-size: 12px;
 }
 
-.upperBottomWrapper div{
-  width:30%;
+.upperBottomWrapper div {
+  width: 30%;
 }
 
-.ggWriteup p{
-line-height:1.2px;
+#ggWriteup {
+  margin-right: 20%;
+}
+.item1 {
+  grid-area: title;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.upperBottomWrapperGrid {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "item2 item3"
+    "item4 item5";
+  padding: 2% 5%;
+  margin:0;
+}
+
+.upperBottomWrapperGrid > span {
+  font-size: small;
+}
+
+.upperBottomWrapperGrid .item1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.lowerBottomWrapper {
+  display: flex;
+}
+
+
+.lowerBottomWrapper div {
+  display: flex;
+  height: 30px;
+  width: 23%;
+  margin: 2% 2%;
+  font-size: 12px;
+}
+
+
+.lowerBottomWrapper div ul {
+  list-style: none;
+}
+
+.lowerBottomWrapper div img {
+  aspect-ratio: 1/1;
+  width: 15x;
+  height: 15px;
+}
+
+
+.socialMedia ul{
+  display: flex;
 }
