@@ -151,20 +151,22 @@ nav ul li a:active {
   border-radius: 6px;
 }
 
-.heroSection a{
-  margin-block:10%;
-  padding:20px;
+.heroSection a {
+  margin-block: 10%;
+  padding: 20px;
+  font-size: small;
 }
 .heroSection a::before {
   content: "";
+  margin-bottom: -10px;
+  margin-inline: 4px;
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   background-size: cover;
   background-image: url(../img/play.png);
   background-repeat: none;
 }
-
 
 .appointmentContainer {
   justify-content: space-between;
@@ -172,6 +174,9 @@ nav ul li a:active {
   margin-inline: 5%;
   padding-inline: 5px;
   border-radius: 12px;
+  z-index:99;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  /* box-shadow: 1px 2px 30px black */
 }
 
 .appointmentContainer p {
@@ -187,7 +192,7 @@ nav ul li a:active {
   height: 55px;
   font-size: medium;
   margin: 1% 2%;
-  border: 1px solid rgb(196, 191, 191);
+  border: 1px solid rgb(161, 153, 153);
   bottom: 30%;
   border-radius: 4px;
 }
@@ -201,12 +206,8 @@ select.appointmentInput {
   width: 28.5%;
   height: 55px;
   margin: 1% 2%;
-  color: rgb(196, 191, 191);
-  
+  color: rgb(109, 104, 104);
 }
-
-
-
 
 #bookappointmentBtn {
   margin: 0% 0% 3% 2%;
@@ -220,10 +221,11 @@ select.appointmentInput {
   border-radius: 6px;
 }
 .ourDepartmentsWrapper {
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .ourDepartmentsWrapper h2 {
-  font-size: 50px;
+  font-size: 40px;
+  padding-inline: 4% 90%;
 }
 
 .ourDepartments {
@@ -432,14 +434,18 @@ select.appointmentInput {
 }
 .subscribeWrapper form {
   display: flex;
+  height: 2em;
+  padding-bottom: 0.5%;
+  border-bottom: 1px solid black;
 }
 .subscribeWrapper input {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .subscribeWrapper button {
   padding: 4%;
-  margin: 15px;
   font-size: smaller;
   font-weight: 500;
   color: white;
@@ -485,7 +491,7 @@ select.appointmentInput {
     "item2 item3"
     "item4 item5";
   padding: 2% 5%;
-  margin:0;
+  margin: 0;
 }
 
 .upperBottomWrapperGrid > span {
@@ -502,7 +508,6 @@ select.appointmentInput {
   display: flex;
 }
 
-
 .lowerBottomWrapper div {
   display: flex;
   height: 30px;
@@ -516,7 +521,6 @@ select.appointmentInput {
   font-size: 11px;
 }
 
-
 .lowerBottomWrapper div ul {
   list-style: none;
   padding-inline: 5%;
@@ -525,33 +529,31 @@ select.appointmentInput {
 
 .lowerBottomWrapper div img {
   aspect-ratio: 1/1;
-  padding-top:5%;
+  padding-top: 5%;
   width: 15x;
   height: 15px;
 }
 
-#socialMedia{
+#socialMedia {
   display: block;
 }
-#socialMedia h5{
+#socialMedia h5 {
   font-weight: bold;
   font-size: small;
-  padding:0%;
-  margin-block:2%;
+  padding: 0%;
+  margin-block: 2%;
 }
 
-#socialMedia ul{
+#socialMedia ul {
   display: flex;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
-#socialMedia ul img{
+#socialMedia ul img {
   margin: 10px;
-  padding:0;
-  width:30px;
+  padding: 0;
+  width: 30px;
   height: 30px;
   padding-block: auto;
 }
-
-
