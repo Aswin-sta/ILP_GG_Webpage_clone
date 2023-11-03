@@ -11,15 +11,15 @@ Designed the Home page of GG Hospital Website using HTML and CSS as part of my I
 >**Contents Included**
 The page has the following contents included:
 
-1.Navigation Bar
-2.Book Appointment
-3.Doctors Listed
-4.Departments Listed
-5.Why GG is better section
-6.Facilities and Activities
-7.You May Be Interested In section
-8.Footer
-9.Newsletter
+1. Navigation Bar
+2. Book Appointment
+3. Doctors Listed
+4. Departments Listed
+5. Why GG is better section
+6. Facilities and Activities
+7. You May Be Interested In section
+8. Footer
+9. Newsletter
 
 
 
