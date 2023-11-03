@@ -5,10 +5,10 @@ This is Clone of GG Hospital Webpage created by Aswinkumar TS during ILP Trainin
 
 Landing Page of GG Hospital Website
 
-##**Description**
+# **Description**
 Designed the Home page of GG Hospital Website using HTML and CSS as part of my ILP training. Got familiarized with CSS and HTML. Project was done in VS Code and used Prettier extension for code formatting
 
-##**Contents Included**
+## **Contents Included**
 The page has the following contents included:
 
 1. Navigation Bar
